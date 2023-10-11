@@ -1,0 +1,74 @@
+
+div.main{
+    /* border: 2px solid black; */
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 80vh;
+    width: 20vw;
+    margin-left: 40%;
+    margin-top: 3%;
+    border-radius: 10px;
+    background-color: rgb(230, 225, 225);
+    color: rgb(100, 85, 85);
+    font-size: medium;
+   }
+
+header.mainheader{
+    /* border: 2px solid red;     */
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    padding: 0px 35px 0px 37px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: azure;
+}
+
+
+div.questions{
+    margin-top: 50px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input.headings{
+    margin-top: 10%;
+    height: 16px;
+    width: 150px;
+}
+
+p.tipamount{
+ font-size: larger;
+ color: black;
+}
+
+p.amount{
+    margin-top: -18px;
+}
+
+p.lastline{
+    margin-top: -15px ;
+}
+
+button{
+margin-top: 10px;
+color: white;
+background-color: rgb(228, 130, 130);
+border-radius: 4px;
+transition: all 0.3s ease;
+font-weight: bold;
+}
+
+ button:hover{
+    font-weight: bold;
+    color: rgb(228, 130, 130); 
+    background-color: white;
+}
